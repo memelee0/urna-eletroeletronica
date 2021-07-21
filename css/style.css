@@ -1,0 +1,206 @@
+@keyframes pisca {
+    0% {opacity: 0.2;}
+    50% {opacity: 1;}
+    100% {opacity: 0.2;}
+}
+
+body{
+    margin: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    flex-direction: column;
+    background-color: #8097A6;
+    
+
+}
+.titulo {
+    display: inline-block;
+    font-family: 'Cinzel Decorative', cursive;
+    color: #D9C196;
+    border-radius: 2vw;
+    font-size: 2vw;
+    padding: 0.75vw;
+    background-color: #878C61;
+    margin-top: 0;
+}
+
+.urna {
+    margin-top: 3vw;
+    background-color: #878C61;
+    padding: 30px;
+    display: flex;
+    box-shadow: 3px 3px 0px #000;
+    border-radius: 2vw;
+}
+.tela {
+    width: 500px;
+    height: 350px;
+    background-color: #D9C196;
+    border: 2px solid #555;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2vw;
+}
+.esquerda {
+    display: flex;
+    flex-direction: column; 
+    border-radius: 2vw;
+}
+.topo-esquerda {
+    display: flex;
+    background-color: #D9C196;
+    margin-left: 30px;
+    height: 70px;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+
+}
+.logo img{
+    display: flex;
+    height: 65px;
+    filter: grayscale(100%);
+    border-radius: 2vw;
+    
+}
+.Justica-eleitoral {
+    margin-bottom: 0.75vw;
+    margin-left: 1vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 2vw;
+}
+.teclado {
+    background-color: #D9C196;
+    margin-left: 30px;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+}
+.teclado--linha {
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.teclado--botao {
+    width: 70px;
+    height: 40px;
+    background-color: #D95436;
+    color: #fff;
+    font-size: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer; 
+    box-shadow: 3px 3px 0px #555;
+    border-radius: 2vw;
+}
+.botao--branco {
+    background-color: #FFF;
+    color: #000;
+    font-size: 13px;
+}
+.botao--corrige {
+    background-color: #e45b1d;
+    color: #000;
+    font-size: 13px;
+}
+.botao--confirma {
+    background-color: #48c079;
+    color: #000;
+    font-size: 13px;
+    width: 90px;
+    height: 50px;
+}
+
+.d-1 {
+    flex: 1;
+    display: flex;
+}
+.d-1-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.d-1-1{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.d-1-2 {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.d-1-3 {
+    height: 50px;
+}
+.numero {
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+}
+.pisca{
+    animation-name: pisca;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.d-1-4 {
+    flex: 1;
+    line-height: 30px;
+    
+}
+.d-1-right {
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.d-1-image {
+    margin-top: 1vw;
+    margin-right: 1vw;
+    border: 1px solid #000;
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 2vw;
+}
+.d-1-image img {
+
+    width: 100%;
+    border-radius: 2vw;
+}
+.d-1-image.small {
+    width: 80%;
+    font-size: 12px;
+    border-radius: 2vw; 
+}
+.d-2 {
+    height: 50px;
+    font-size: 14px;
+    border-top: 2px solid #000;
+    padding-left: 10px;
+}
+
+.aviso--grande {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.aviso--gigante {
+    font-size: 70px;
+    font-weight: bold;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
